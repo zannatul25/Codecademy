@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <!-- Next two link file use as a style sheet -->
+    <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+    <!-- This below link use style of your web page. In notepad you will open a file and save as a "style.css" and will save this file in same folder where you save index.html file -->
+    <!-- you can see the href use the relative path as the index.html file, otherwise your stylesheet won't work -->
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- This unordered list use as a navigation bar -->
+    <ul class="navigation">
+      <li><img src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+    <!-- This div used as a search table -->
+    <div class="search">Search the table</div>
+    <!-- This Table is the instruction table -->
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Company Name</th>
+          <th scope="col">Number of Items to Ship</th>
+          <th scope="col">Next Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">Adam’s Greenworks</td>
+          <td rowspan="2">14</td>
+          <td>Package Items</td>
+        </tr>
+        <tr>
+          <td>Davie's Burgers</td>
+          <td>2</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Baker's Bike Shop</td>
+          <td>3</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Miss Sally's Southern</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Summit Resort Rentals</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Strike Fitness</td>
+          <td>1</td>
+          <td>Enter Order</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>28</td>
+        </tr>      
+      </tfoot> 
+    </table>
+
+    <!-- This table is demonestrated the example Table for extra practice -->
+    <table>
+      <thead>
+        <tr>
+          <th>Quarter</th>
+          <th>Revenue</th>
+          <th>Costs</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Q1</th>
+          <td>$10M</td>
+          <td>$7.5M</td>
+        </tr>
+        <tr>
+          <th>Q2</th>
+          <td>$12M</td>
+          <td>$5M</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <td>$22M</td>
+          <td>$12.5M</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- This table is demonestrated the example Table for extra practice -->
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th scope="col">Saturday</th> 
+          <th scope="col">Sunday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Morning</th>
+          <td rowspan="2">Work</td>
+          <td rowspan="3">Relax</td>
+        </tr>
+        <tr>
+         <th scope="row">Afternoon</th>
+        </tr>
+        <tr>
+          <th scope="row">Evening</th>
+          <td>Dinner</td>
+        </tr>
+      </tbody>
+    </table>
+ </body>
+</html>
