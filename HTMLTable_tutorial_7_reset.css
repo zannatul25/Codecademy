@@ -2,6 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/*
+Please make sure 
+index.html, style.css and reset.css files
+will share same folder to get proper output */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
